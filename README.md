@@ -82,4 +82,4 @@ Src: 8.8.8.8 | Dst: 192.168.1.5 | Proto: UDP | Payload: ...
 
 Need to Install: pip install scapy
 
-Run Command: python sniffer_gui.py
+Run Command: python network_sniffer.py
