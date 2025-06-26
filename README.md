@@ -1,5 +1,11 @@
-📌 Objective
-To create a graphical tool that allows users to monitor and inspect IP network traffic in real time. The application captures and displays source and destination IPs, protocol types, and a snippet of packet payloads.
+🎯 Objective/Purpose
+To capture and inspect live network traffic.
+
+To analyze how protocols like IP, TCP, UDP, and ICMP behave.
+
+To learn how to extract useful data like source/destination IPs, protocol types, and payloads.
+
+To use Python libraries to implement a basic version of tools like Wireshark.
 
 ⚙️ Tools & Libraries Used
 Python: Programming language.
@@ -78,6 +84,43 @@ Src: 192.168.1.5 | Dst: 8.8.8.8 | Proto: UDP | Payload: ...
 And the response:
 
 Src: 8.8.8.8 | Dst: 192.168.1.5 | Proto: UDP | Payload: ...
+
+🧠 Key Skills and Knowledge You'll Gain
+1. How Network Communication Works
+Understand the structure of network packets (Ethernet, IP, TCP/UDP).
+
+Learn how data moves from one computer to another via the internet or local network.
+
+2. Using Python for Network Programming
+Work with libraries like scapy and socket to capture and inspect real-time traffic.
+
+Learn to write scripts that interact with low-level network protocols.
+
+3. Packet Analysis
+Identify key packet fields: source/destination IPs, ports, payloads, and protocol types.
+
+Learn the difference between protocols like TCP, UDP, ICMP, etc.
+
+4. Network Security Fundamentals
+See how unencrypted data can be inspected on a network.
+
+Gain insight into how intrusion detection systems (IDS) and packet sniffers work.
+
+Understand how hackers might capture sensitive data and how to defend against it.
+
+5. Debugging and Monitoring Network Issues
+Use packet data to troubleshoot connection problems.
+
+Spot irregular or suspicious traffic patterns.
+
+🧰 Practical Experience
+By doing this task, you’ll:
+
+Build your own mini-Wireshark in Python.
+
+See live packet data as it travels across your network.
+
+Strengthen your understanding of network layers from theory to code.
 
 
 Need to Install: pip install scapy
