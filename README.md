@@ -1,11 +1,9 @@
 🎯 Objective/Purpose
-To capture and inspect live network traffic.
 
-To analyze how protocols like IP, TCP, UDP, and ICMP behave.
-
-To learn how to extract useful data like source/destination IPs, protocol types, and payloads.
-
-To use Python libraries to implement a basic version of tools like Wireshark.
+1)To capture and inspect live network traffic.
+2)To analyze how protocols like IP, TCP, UDP, and ICMP behave.
+3)To learn how to extract useful data like source/destination IPs, protocol types, and payloads.
+4)To use Python libraries to implement a basic version of tools like Wireshark.
 
 ⚙️ Tools & Libraries Used
 Python: Programming language.
